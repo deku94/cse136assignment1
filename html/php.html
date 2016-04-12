@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<title>CGI Form</title>
+</head>
+<body>
+<h1>Form Test</h1>
+<hr>
+<form action="cgi-bin/php/processdata.php" method="Post">
+<label>Name: <input type="text" name="username"></label>
+<br>
+<label>Password: <input type="password" name="userpassword"></label>
+<br>
+<label>Magic Number: <input type="number" name="magicnumber"></label>
+
+<br>
+<input type="submit" value="send">
+</form>
+
+<form action="cgi-bin/php/processdata.php" method="GET">
+<label>Name: <input type="text" name="username"></label>
+<br>
+<label>Password: <input type="password" name="userpassword"></label>
+<br>
+<label>Magic Number: <input type="number" name="magicnumber"></label>
+
+<br>
+<input type="submit" value="send">
+</form>
+</body>
+</html>

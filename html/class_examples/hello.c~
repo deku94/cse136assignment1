@@ -1,0 +1,8 @@
+#include <stdio.h>
+main() 
+{
+ printf("Content-type: text/html \n\n");
+ printf("<html><head><title>Hello C Based CGI World</title></head>");
+ printf("<body style='background-color: purple'><h1>Hello World from C in the CSE135 lecture!</h1>");
+ printf("</body></html>");
+}

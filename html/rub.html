@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>CGI Form</title>
+</head>
+<body>
+<h1>Form Test</h1>
+<hr>
+<form action="cgi-bin/ruby/processdata.rb" method="Post">
+<label>Name: <input type="text" name="username"></label>
+<br>
+<label>Password: <input type="password" name="password"></label>
+<br>
+<label>Magic Number: <input type="text" name="magicnumber" size="2" maxlength="2"></label>
+<br>
+
+<br>
+<input type="submit" value="send">
+</form>
+<br>
+
+<form action="cgi-bin/ruby/processdata.rb" method="Get">
+<label>Name: <input type="text" name="username"></label>
+<br>
+<label>Password: <input type="password" name="password"></label>
+<br>
+<label>Magic Number: <input type="text" name="magicnumber" size="2" maxlength="2"></label>
+<br>
+
+<br>
+<input type="submit" value="send">
+</form>
+
+
+
+</body>
+</html>
